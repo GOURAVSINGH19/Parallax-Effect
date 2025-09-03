@@ -49,7 +49,7 @@ const Home = () => {
     <section className="h-screen relative m-0  flex justify-center items-center text-center">
       <div className=" intro_text  z-[3] relative ">
         <div className="text-center">
-          <h1 className="text-white md:text-[6.5rem] text-[6.5rem] lg:text-[4.5rem] font-[PPmori-Regular] split_h1">
+          <h1 className="text-white text-[4rem] md:text-[6.5rem] lg:text-[4.5rem] font-[PPmori-Regular] split_h1">
             <div className="split-text leading-[1.1em]  overflow-hidden font-[Editorial-Regular] font-800">
               <span className="font-serif text_font">True</span> to Oneself
             </div>
@@ -64,7 +64,7 @@ const Home = () => {
         </p>
       </div>
       <div className="home_video w-full h-full absolute top-0 left-0">
-        <div className="bg-black w-full h-full opacity-[.2] z-[2] pointer-events-none absolute top-0 left-0 right-0 bottom-0"></div>
+        <div className="bg-white w-full h-full opacity-[.2] z-[2] pointer-events-none absolute top-0 left-0 right-0 bottom-0"></div>
         <div className="w-full h-full absolute top-0 bottom-0 left-0 overflow-hidden">
           <video
             src="/video/hero-m.mp4"

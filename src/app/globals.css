@@ -50,6 +50,10 @@ html {
   height: 100vh;
 }
 
+:root {
+  --padding: 1.5rem;
+}
+
 .preloader {
   position: fixed;
   top: 0;
@@ -309,9 +313,19 @@ html {
   padding: 0 calc(4% + 0.75rem);
 }
 
+h2 {
+  font-family: PP Mori, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
 .masking-text {
   overflow: hidden;
   display: block;
+  height: 1em;
+  line-height: 0.8em;
 }
 
 .title {
@@ -348,4 +362,21 @@ html {
 .card img {
   border-radius: 10px;
   user-select: none;
+}
+
+.ethos_container {
+  margin: 0 auto;
+  padding-left: calc(var(--padding)) * 0.5;
+  padding-right: calc(var(--padding)) * 0.5;
+}
+.ethos_text::before {
+  border: 1px solid #3b3b3b;
+  border-radius: 5rem;
+  content: "ETHOS";
+  font-size: 0.8rem;
+  left: 5%;
+  opacity: 0.6;
+  padding: 0.3rem 3rem 0.2rem;
+  position: absolute;
+  top: 5vw;
 }

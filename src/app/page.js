@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Preloader from "@/components/Preloader/Preloader";
 import Section2 from "@/components/Section2";
 import Section3 from "@/components/Section3";
+import Section4 from "@/components/Section4";
 import React from "react";
 
 const page = () => {
@@ -11,11 +12,9 @@ const page = () => {
       {/* <Preloader /> */}
       <Navbar />
       <div className="overflow-hidden main">
-        {/* <Home /> */}
-        <div className="h-[100vh] bg-white"></div>
+        <Home />
         {/* <Section2 /> */}
         <Section3 />
-
         <div className="h-[100vh] bg-white"></div>
       </div>
     </>
